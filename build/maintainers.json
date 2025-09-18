@@ -3165,9 +3165,6 @@
   "/google/fonts/:sort?": [
     "Fatpandac"
   ],
-  "/google/jules/changelog": [
-    "johan456789"
-  ],
   "/google/news/:category/:locale": [
     "zoenglinghou",
     "pseudoyu"
@@ -6628,9 +6625,6 @@
   "/qweather/now/:location": [
     "Rein-Ou"
   ],
-  "/qwenlm/blog/:lang?": [
-    "Kjasn"
-  ],
   "/qztc/home/:type": [
     "iQNRen"
   ],
@@ -7538,9 +7532,7 @@
   "/supchina/podcasts": [
     "nczitzk"
   ],
-  "/surfshark/blog/:category{.+}?": [
-    "nczitzk"
-  ],
+  "/surfshark/blog/:category{.+}?": [],
   "/sustainabilitymag/articles": [
     "mintyfrankie"
   ],
@@ -7731,7 +7723,7 @@
   "/telegram/blog": [
     "fengkx"
   ],
-  "/telegram/media/:entityName/:messageId": [
+  "/telegram/channel/:entityName/:messageId": [
     "synchrone"
   ],
   "/telegram/channel/:username/:routeParams?": [

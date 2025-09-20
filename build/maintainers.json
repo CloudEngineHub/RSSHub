@@ -2961,7 +2961,7 @@
   "/gdufs/news": [
     "gz4zzxc"
   ],
-  "/gdufs/xwxy-news": [
+  "/gdufs/xwxy/:category?": [
     "gz4zzxc"
   ],
   "/gdut/oa_news/:type?": [
@@ -3939,6 +3939,9 @@
     "zeyugao",
     "ovo-tim"
   ],
+  "/huijin-inv/news": [
+    "la3rence"
+  ],
   "/hunanpea/rsks/:guid": [
     "TonyRL"
   ],
@@ -4218,7 +4221,7 @@
   "/instructables/projects/:category?": [
     "wolfg1969"
   ],
-  "/investor/:category{.+}?": [
+  "/investor/:id{.+}?": [
     "nczitzk"
   ],
   "/iplaysoft/category/:slug": [

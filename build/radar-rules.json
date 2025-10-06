@@ -5129,6 +5129,21 @@
       }
     ]
   },
+  "altotrain.ca": {
+    "_name": "Alto - Toronto-Québec City High-Speed Rail Network",
+    ".": [
+      {
+        "title": "Alto News",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/:language",
+          "/:language/news",
+          "/:language/nouvelles"
+        ],
+        "target": "/altotrain/:language"
+      }
+    ]
+  },
   "amazfitwatchfaces.com": {
     "_name": "Amazfitwatchfaces",
     ".": [
@@ -10836,6 +10851,20 @@
       }
     ]
   },
+  "chinatimes.com": {
+    "_name": "中時新聞網",
+    "www": [
+      {
+        "title": "分類",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:category/",
+          "/"
+        ],
+        "target": "/chinatimes/:category?"
+      }
+    ]
+  },
   "chinaventure.com.cn": {
     "_name": "投中网",
     ".": [
@@ -15820,6 +15849,22 @@
           "/blog"
         ],
         "target": "/gaoyu/blog"
+      }
+    ]
+  },
+  "pm.gc.ca": {
+    "_name": "Prime Minister of Canada",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/",
+          "/:language",
+          "/:language/news",
+          "/:language/nouvelles"
+        ],
+        "target": "/gc.ca/pm/:language"
       }
     ]
   },
@@ -22326,6 +22371,19 @@
           "/"
         ],
         "target": "/imop/tianshu"
+      }
+    ]
+  },
+  "indianexpress.com": {
+    "_name": "The Indian Express",
+    ".": [
+      {
+        "title": "Section",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/section/:id"
+        ],
+        "target": "/indianexpress/section/:id"
       }
     ]
   },

@@ -724,6 +724,7 @@ export type RoutePath =
   | `/dewu/declaration/:categoryId?`
   | `/dgjyw*`
   | `/dgtle/article/:id?/:pushed?`
+  | `/dgtle/feed`
   | `/dgtle/news/:id?`
   | `/dgtle/video`
   | `/dgut/jwb/:type?`
@@ -2904,6 +2905,7 @@ export type RoutePath =
   | `/wnacg/`
   | `/wnacg/category/:cid`
   | `/wnacg/tag/:tag`
+  | `/wogem/:page?`
   | `/wohnnet/:category/:region/*`
   | `/wordpress/:url?/:filter{.+}?`
   | `/worldjournal/:path{.+}?`

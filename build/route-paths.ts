@@ -2176,7 +2176,6 @@ export type RoutePath =
   | `/pornhub/users/:username/:language?`
   | `/postman/release-notes`
   | `/priconne-redive/news/:server?`
-  | `/producereport/:category{.+}?`
   | `/producthunt/today`
   | `/ps/monthly-games`
   | `/ps/trophy/:id`

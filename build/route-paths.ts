@@ -1392,7 +1392,6 @@ export type RoutePath =
   | `/hupu/bbs/:id?/:order?`
   | `/hupu/bxj/:id?/:order?`
   | `/hupu/dept/:category?`
-  | `/hupu/news/:team`
   | `/hust/aia/news`
   | `/hust/aia/notice/:type?`
   | `/hust/auto/news`
@@ -2053,7 +2052,6 @@ export type RoutePath =
   | `/oeeee/app/reporter/:id`
   | `/oeeee/web/:channel`
   | `/oesw*`
-  | `/oevw/:json?`
   | `/oilchem/:type?/:category?/:subCategory?`
   | `/okx/:section?`
   | `/olevod/vod/:id`

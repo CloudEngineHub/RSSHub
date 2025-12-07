@@ -4203,6 +4203,9 @@
     "zeyugao",
     "ovo-tim"
   ],
+  "/huggingface/models/:group": [
+    "WuNein"
+  ],
   "/huijin-inv/news": [
     "la3rence"
   ],
@@ -4235,6 +4238,9 @@
   ],
   "/hupu/:category?": [
     "nczitzk",
+    "hyoban"
+  ],
+  "/hupu/news/:team": [
     "hyoban"
   ],
   "/hust/gs/:category{.+}?": [
@@ -6261,6 +6267,9 @@
     "TimWu007"
   ],
   "/oesw*": [
+    "sk22"
+  ],
+  "/oevw/:json?": [
     "sk22"
   ],
   "/oilchem/:type?/:category?/:subCategory?": [

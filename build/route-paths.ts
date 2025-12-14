@@ -429,6 +429,7 @@ export type RoutePath =
   | `/caixin/weekly`
   | `/caixinglobal/latest`
   | `/camchina/:id?`
+  | `/canada.ca/news/:lang/:department?`
   | `/cankaoxiaoxi/:id?`
   | `/cankaoxiaoxi/column/:id?`
   | `/capitalmind/insights`
@@ -436,6 +437,7 @@ export type RoutePath =
   | `/cara/likes/:user`
   | `/cara/portfolio/:user`
   | `/cara/timeline/:user`
+  | `/carousell/:region/:keyword`
   | `/cartoonmad/comic/:id`
   | `/cas/cg/:caty?`
   | `/cas/genetics/:path{.+}`

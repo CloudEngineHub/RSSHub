@@ -2656,7 +2656,6 @@ export type RoutePath =
   | `/theatlantic/:category`
   | `/theblock/category/:category`
   | `/theblockbeats/:channel?/:original?`
-  | `/thebrain/blog`
   | `/thecover/channel/:id?`
   | `/thegadgetflow/:category?`
   | `/thegradient/posts`

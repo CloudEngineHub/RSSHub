@@ -1049,10 +1049,6 @@ export type RoutePath =
   | `/gamersky/review/:type?`
   | `/gamme/:domain/:category?`
   | `/gamme/:domain/tag/:tag`
-  | `/ganjingworld/channel/articles/:id`
-  | `/ganjingworld/channel/posts/:id`
-  | `/ganjingworld/channel/shorts/:id`
-  | `/ganjingworld/channel/videos/:id`
   | `/gaoyu/blog`
   | `/gc.ca/pm/:language?`
   | `/gcores/articles`
@@ -2163,7 +2159,6 @@ export type RoutePath =
   | `/people/liuyan/:id/:state?`
   | `/people/xjpjh/:keyword?/:year?`
   | `/peopo/topic/:topicId?`
-  | `/perplexity/changelog`
   | `/phoronix/:category?/:topic?`
   | `/pianyivps/`
   | `/pianyuan/index/:media?`

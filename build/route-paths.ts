@@ -603,8 +603,6 @@ export type RoutePath =
   | `/cnu/physics`
   | `/cnu/smkxxy`
   | `/cockroachlabs/blog/:category?`
-  | `/codefather/posts/:category?/:sort?`
-  | `/codefather/questions/:sort?`
   | `/codeforces/contests`
   | `/codeforces/recent-actions/:minrating?`
   | `/cognition/blog`

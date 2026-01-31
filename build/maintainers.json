@@ -3736,7 +3736,7 @@
     "howfool",
     "nczitzk"
   ],
-  "/gov/nea/sjzz/ghs": [
+  "/gov/nea/sjzz/:bureau": [
     "nczitzk",
     "pseudoyu"
   ],
@@ -6267,7 +6267,8 @@
     "Blank0120"
   ],
   "/nuist/bulletin/:category?": [
-    "gylidian"
+    "gylidian",
+    "QianYu-u"
   ],
   "/nuist/cas/:category?": [
     "gylidian"
@@ -6445,7 +6446,9 @@
   "/openai/chatgpt-atlas/release-notes": [
     "xbot"
   ],
-  "/openai/chatgpt/release-notes": [],
+  "/openai/chatgpt/release-notes": [
+    "xbot"
+  ],
   "/openai/cookbook": [
     "liyaozhong"
   ],
@@ -8400,6 +8403,9 @@
   ],
   "/tiddlywiki/releases": [
     "p3psi-boo"
+  ],
+  "/tiktok/live/:user": [
+    "TonyRL"
   ],
   "/tiktok/user/:user/:iframe?": [
     "TonyRL"

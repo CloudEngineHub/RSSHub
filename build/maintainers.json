@@ -877,6 +877,9 @@
   "/bestblogs/feeds/:category?": [
     "zhenlohuang"
   ],
+  "/bestblogs/newsletter": [
+    "occam-7"
+  ],
   "/bestofjs/rankings/monthly": [
     "ztkuaikuai"
   ],
@@ -2516,6 +2519,9 @@
   ],
   "/douban/people/:userid/wish/:routeParams?": [
     "exherb"
+  ],
+  "/douban/tv/coming/:sortBy?/:count?": [
+    "honue"
   ],
   "/douyin/hashtag/:cid/:routeParams?": [
     "TonyRL"

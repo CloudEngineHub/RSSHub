@@ -4600,6 +4600,9 @@
   "/imop/tianshu": [
     "zhkgo"
   ],
+  "/inceptionlabs/blog": [
+    "zdenek-stursa"
+  ],
   "/indianexpress/section/:id{.+}?": [
     "nczitzk"
   ],
@@ -9843,7 +9846,7 @@
   "/zhizhuan100/analytic": [
     "Cedaric"
   ],
-  "/zhonglun/research/article/:language{[a-zA-Z0-9-]+}?": [
+  "/zhonglun/research/article/:language?": [
     "nczitzk"
   ],
   "/zhubai/posts/:id": [

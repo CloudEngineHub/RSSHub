@@ -5575,6 +5575,20 @@
       }
     ]
   },
+  "apple.com.cn": {
+    "_name": "Apple",
+    "www": [
+      {
+        "title": "Newsroom (中国大陆)",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/newsroom",
+          "/newsroom/:year/:month/:slug"
+        ],
+        "target": "/apple/newsroom"
+      }
+    ]
+  },
   "appleinsider.com": {
     "_name": "AppleInsider",
     ".": [
@@ -13267,10 +13281,33 @@
         "title": "Blog",
         "docs": "https://docs.rsshub.app/routes/blog",
         "source": [
-          "/blog",
+          "/blog"
+        ],
+        "target": "/cursor/blog"
+      },
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
           "/blog/topic/:topic"
         ],
         "target": "/cursor/blog/:topic"
+      },
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/:locale/blog"
+        ],
+        "target": "/cursor/blog/all/:locale"
+      },
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/:locale/blog/topic/:topic"
+        ],
+        "target": "/cursor/blog/:topic/:locale"
       },
       {
         "title": "Changelog",
@@ -13279,6 +13316,14 @@
           "/changelog"
         ],
         "target": "/cursor/changelog"
+      },
+      {
+        "title": "Changelog",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/:locale/changelog"
+        ],
+        "target": "/cursor/changelog/:locale"
       }
     ]
   },
@@ -38074,6 +38119,14 @@
   "perplexity.ai": {
     "_name": "Perplexity",
     "www": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/hub"
+        ],
+        "target": "/perplexity/blog"
+      },
       {
         "title": "Changelog",
         "docs": "https://docs.rsshub.app/routes/program-update",

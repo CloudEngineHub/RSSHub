@@ -625,6 +625,9 @@
     "HenryQW",
     "kt286"
   ],
+  "/apple/newsroom": [
+    "LinxHex"
+  ],
   "/apple/podcast/:id/:region?": [
     "Acring"
   ],
@@ -2072,10 +2075,10 @@
   "/curius/links/:name": [
     "Ovler-Young"
   ],
-  "/cursor/blog/:topic?": [
+  "/cursor/blog/:topic?/:locale?": [
     "johan456789"
   ],
-  "/cursor/changelog": [
+  "/cursor/changelog/:locale?": [
     "p3psi-boo",
     "nczitzk"
   ],
@@ -6720,6 +6723,9 @@
   ],
   "/people/xjpjh/:keyword?/:year?": [],
   "/peopo/topic/:topicId?": [],
+  "/perplexity/blog": [
+    "seeyangzhi"
+  ],
   "/perplexity/changelog": [
     "xbot"
   ],

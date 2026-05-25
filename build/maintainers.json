@@ -1674,6 +1674,9 @@
   "/chnmuseum/zx/xwzt": [
     "ShabbyWhineYear"
   ],
+  "/chnmuseum/zl/:type?/:subType?": [
+    "magazian"
+  ],
   "/chocolatey/packages/:id": [
     "nczitzk"
   ],
@@ -5189,6 +5192,9 @@
   ],
   "/kisskiss/blog/:category?": [
     "keocheung"
+  ],
+  "/kleinanzeigen/search/:routeParams": [
+    "LunyaaDev"
   ],
   "/komiic/comic/:id": [
     "NekoAria"

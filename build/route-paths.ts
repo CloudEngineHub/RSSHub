@@ -551,6 +551,7 @@ export type RoutePath =
   | `/chinawriter/:id{.+}?`
   | `/chiphell/portal/:catId?`
   | `/chlinlearn/daily-blog`
+  | `/chnmuseum/zl/:type?/:subType?`
   | `/chnmuseum/zx/xingnew`
   | `/chnmuseum/zx/xwzt`
   | `/chocolatey/packages/:id`
@@ -1699,6 +1700,7 @@ export type RoutePath =
   | `/kiro/blog`
   | `/kiro/changelog`
   | `/kisskiss/blog/:category?`
+  | `/kleinanzeigen/search/:routeParams`
   | `/komiic/comic/:id`
   | `/konachan/post/popular_recent/:period?`
   | `/konachan/sfw/post/popular_recent/:period?`

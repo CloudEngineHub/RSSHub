@@ -1317,6 +1317,8 @@ export type RoutePath =
   | `/grist/series/:series`
   | `/grist/topic/:topic`
   | `/grubstreet/`
+  | `/grupoanimal/estados`
+  | `/grupoanimal/politica`
   | `/gs/developer/blog`
   | `/guancha/:category?`
   | `/guancha/headline`
@@ -1747,6 +1749,8 @@ export type RoutePath =
   | `/leiphone/:do?/:keyword?`
   | `/leiphone/newsflash`
   | `/lemmy/:community/:sort?`
+  | `/lemonde/:category?`
+  | `/lemonde/en/:category?`
   | `/lenovo/drive/:selName`
   | `/lens/profile/:handle`
   | `/lephoceen/chrono`
@@ -2627,6 +2631,7 @@ export type RoutePath =
   | `/sourceforge/:routeParams?`
   | `/southcn/nfapp/column/:column?`
   | `/southcn/nfapp/reporter/:reporter`
+  | `/soweather/warn`
   | `/spankbang/new_videos`
   | `/spglobal/ratings/:language?`
   | `/spotify/artist/:id`

@@ -4023,6 +4023,12 @@
   "/grubstreet/": [
     "loganrockmore"
   ],
+  "/grupoanimal/estados": [
+    "Slayer015"
+  ],
+  "/grupoanimal/politica": [
+    "Slayer015"
+  ],
   "/gs/developer/blog": [
     "chesha1"
   ],
@@ -5328,6 +5334,12 @@
   "/lemmy/:community/:sort?": [
     "wb14123",
     "pseudoyu"
+  ],
+  "/lemonde/en/:category?": [
+    "mlkgrnt"
+  ],
+  "/lemonde/:category?": [
+    "mlkgrnt"
   ],
   "/lenovo/drive/:selName": [
     "cscnk52"
@@ -8076,6 +8088,9 @@
   ],
   "/southcn/nfapp/reporter/:reporter": [
     "TimWu007"
+  ],
+  "/soweather/warn": [
+    "TinkoLiu"
   ],
   "/spankbang/new_videos": [
     "TonyRL"

@@ -21799,6 +21799,27 @@
       }
     ]
   },
+  "grupoanimal.mx": {
+    "_name": "Grupo Animal",
+    "www": [
+      {
+        "title": "Estados",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/estados"
+        ],
+        "target": "/grupoanimal/grupoanimal/estados"
+      },
+      {
+        "title": "Política",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/politica"
+        ],
+        "target": "/grupoanimal/grupoanimal/politica"
+      }
+    ]
+  },
   "gs.com": {
     "_name": "Goldman Sachs",
     "developer": [
@@ -28685,6 +28706,27 @@
           "/"
         ],
         "target": "/leiphone/newsflash"
+      }
+    ]
+  },
+  "lemonde.fr": {
+    "_name": "Le Monde",
+    ".": [
+      {
+        "title": "News (English)",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/en/:category"
+        ],
+        "target": "/lemonde/en/:category"
+      },
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:category"
+        ],
+        "target": "/lemonde/:category"
       }
     ]
   },
@@ -38439,11 +38481,11 @@
       }
     ]
   },
-  "pixnoy.com": {
+  "picnob.com": {
     "_name": "Instagram",
     "www": [
       {
-        "title": "User Profile - Pixnoy",
+        "title": "User Profile - Picnob",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/profile/:id"
@@ -38451,7 +38493,7 @@
         "target": "/picnob/user/:id"
       },
       {
-        "title": "User Profile - Pixnoy",
+        "title": "User Profile - Picnob",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/profile/:id/tagged"

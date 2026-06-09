@@ -25971,7 +25971,7 @@
         "source": [
           "/:type/:name"
         ],
-        "target": "/jbmaparams=>{const type=params.type;const name=params.name;if(type===\"report\"||type===\"cat_report\"||type===\"tag_report\"){return`/${type}${name?`/${name}`:\"\"}`}return`/${type}`}"
+        "target": "/jbmaparams=>{const type=params.type;const name=params.name;if([\"report\",\"cat_report\",\"tag_report\"].includes(type)){return`/${type}${name?`/${name}`:\"\"}`}return`/${type}`}"
       },
       {
         "title": "Metals Forcus",
@@ -33377,6 +33377,19 @@
           "/"
         ],
         "target": "/nautiljon/releases/manga"
+      }
+    ]
+  },
+  "naver.com": {
+    "_name": "네이버",
+    "m.search": [
+      {
+        "title": "검색",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/search.naver"
+        ],
+        "target": "/naver/search/:category/:keyword"
       }
     ]
   },

@@ -1547,9 +1547,6 @@
   "/cebbank/quotation/history/:type": [
     "linbuxiao"
   ],
-  "/cefco/research/news": [
-    "TonyRL"
-  ],
   "/ceph/blog/:topic?": [
     "pandada8"
   ],

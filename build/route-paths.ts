@@ -510,7 +510,6 @@ export type RoutePath =
   | `/ce/district/:category?`
   | `/cebbank/quotation/all`
   | `/cebbank/quotation/history/:type`
-  | `/cefco/research/news`
   | `/ceph/blog/:topic?`
   | `/cfachina/servicesupport/analygarden/:program?`
   | `/cffex/announcement`

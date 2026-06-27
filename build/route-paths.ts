@@ -2227,7 +2227,6 @@ export type RoutePath =
   | `/paulgraham/`
   | `/paulgraham/articles`
   | `/paulgraham/essays`
-  | `/pawchive/:service/:id`
   | `/pconline/focus/:category?`
   | `/pencilnews/`
   | `/penguin-random-house/articles`

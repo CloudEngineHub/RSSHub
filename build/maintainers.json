@@ -6888,6 +6888,9 @@
     "nczitzk",
     "dvorak0"
   ],
+  "/pawchive/:service/:id": [
+    "TonyRL"
+  ],
   "/pconline/focus/:category?": [
     "CH563"
   ],
@@ -9750,13 +9753,13 @@
   "/xueqiu/hots": [
     "hillerliao"
   ],
+  "/xueqiu/stock_info/:id/:type?": [
+    "YuYang"
+  ],
   "/xueqiu/user/:id/:type?": [
     "imlonghao"
   ],
   "/xueqiu/stock_comments/:id": [],
-  "/xueqiu/stock_info/:id/:type?": [
-    "YuYang"
-  ],
   "/xueqiu/today": [
     "nczitzk"
   ],

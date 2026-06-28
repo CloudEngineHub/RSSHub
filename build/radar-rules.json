@@ -38945,6 +38945,27 @@
       }
     ]
   },
+  "pawchive.st": {
+    "_name": "Pawchive",
+    ".": [
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/"
+        ],
+        "target": "/pawchive/:service/:id"
+      },
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/:service/user/:id"
+        ],
+        "target": "/pawchive/:service/:id"
+      }
+    ]
+  },
   "pconline.com.cn": {
     "_name": "太平洋科技",
     ".": [
@@ -49667,6 +49688,15 @@
         "target": "/xueqiu/hots"
       },
       {
+        "title": "股票信息",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/S/:id",
+          "/s/:id"
+        ],
+        "target": "/xueqiu/stock_info/:id"
+      },
+      {
         "title": "用户动态",
         "docs": "https://docs.rsshub.app/routes/finance",
         "source": [
@@ -49681,15 +49711,6 @@
           "/S/:id"
         ],
         "target": "/xueqiu/stock_comments/:id"
-      },
-      {
-        "title": "股票信息",
-        "docs": "https://docs.rsshub.app/routes/finance",
-        "source": [
-          "/S/:id",
-          "/s/:id"
-        ],
-        "target": "/xueqiu/stock_info/:id"
       },
       {
         "title": "今日话题",

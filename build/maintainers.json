@@ -4167,7 +4167,7 @@
   "/gzhu/yjs": [
     "shengmaosu"
   ],
-  "/hackernews/:section?/:type?/:value?": [
+  "/hackernews/:section?/:type?/:user?": [
     "nczitzk",
     "xie-dongping"
   ],
@@ -4308,12 +4308,6 @@
   ],
   "/hljucm/yjsy/:category?": [
     "nczitzk"
-  ],
-  "/hnmuseum/current-exhibitions/:type?": [
-    "magazian"
-  ],
-  "/hnmuseum/hnmnews": [
-    "magazian"
   ],
   "/hnrb/:id?": [
     "nczitzk"

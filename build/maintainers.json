@@ -4161,15 +4161,6 @@
   "/guozaoke/default": [
     "xiaoshame"
   ],
-  "/gxmzu/aitzgg": [
-    "real-jiakai"
-  ],
-  "/gxmzu/libzxxx": [
-    "real-jiakai"
-  ],
-  "/gxmzu/yjszsgg": [
-    "real-jiakai"
-  ],
   "/gzdaily/app/:column?": [
     "TimWu007"
   ],
@@ -4750,12 +4741,6 @@
   ],
   "/joins/chinese/:category?": [
     "nczitzk"
-  ],
-  "/jou/tzgg": [
-    "real-jiakai"
-  ],
-  "/jou/yztzgg": [
-    "real-jiakai"
   ],
   "/jpmorganchase/": [
     "dousha"
@@ -5517,12 +5502,6 @@
   "/njust/jwc/:type?": [
     "MilkShakeYoung",
     "jasongzy"
-  ],
-  "/njxzc/tzgg": [
-    "real-jiakai"
-  ],
-  "/njxzc/libtzgg": [
-    "real-jiakai"
   ],
   "/nlc/read/:type?": [
     "nczitzk"
@@ -9142,6 +9121,15 @@
     "alphardex",
     "nczitzk"
   ],
+  "/gxmzu/libzxxx": [
+    "real-jiakai"
+  ],
+  "/gxmzu/aitzgg": [
+    "real-jiakai"
+  ],
+  "/gxmzu/yjszsgg": [
+    "real-jiakai"
+  ],
   "/hafu/news/:type?": [],
   "/hdu/cs": [
     "legr4ndk"
@@ -9357,6 +9345,12 @@
   "/joshwcomeau/popular": [
     "Rjnishant530"
   ],
+  "/jou/tzgg": [
+    "real-jiakai"
+  ],
+  "/jou/yztzgg": [
+    "real-jiakai"
+  ],
   "/juejin/books": [
     "xyqfer"
   ],
@@ -9515,6 +9509,12 @@
     "real-jiakai"
   ],
   "/njucm/grabszs": [
+    "real-jiakai"
+  ],
+  "/njxzc/libtzgg": [
+    "real-jiakai"
+  ],
+  "/njxzc/tzgg": [
     "real-jiakai"
   ],
   "/nua/dc/:type": [

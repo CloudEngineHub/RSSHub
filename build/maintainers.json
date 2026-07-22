@@ -1272,6 +1272,9 @@
   "/orcid/:id": [
     "OrangeEd1t"
   ],
+  "/pawchive/:service/:id": [
+    "TonyRL"
+  ],
   "/pixabay/search/:q/:order?": [
     "TonyRL"
   ],
@@ -1444,22 +1447,22 @@
   "/bsky/profile/:handle/:routeParams?": [
     "TonyRL"
   ],
-  "/daily/discussed/:period?/:dateSort?": [
+  "/daily/discussed/:period?/:innerSharedContent?/:dateSort?": [
     "Rjnishant530"
   ],
-  "/daily/popular/:dateSort?": [
+  "/daily/popular/:innerSharedContent?/:dateSort?": [
     "Rjnishant530"
   ],
-  "/daily/source/:sourceId": [
+  "/daily/source/:sourceId/:innerSharedContent?": [
     "TonyRL"
   ],
-  "/daily/squads/:squads": [
+  "/daily/squads/:squads/:innerSharedContent?": [
     "Rjnishant530"
   ],
-  "/daily/upvoted/:period?/:dateSort?": [
+  "/daily/upvoted/:period?/:innerSharedContent?/:dateSort?": [
     "Rjnishant530"
   ],
-  "/daily/user/:userId": [
+  "/daily/user/:userId/:innerSharedContent?": [
     "TonyRL"
   ],
   "/discord/quests": [
@@ -3939,12 +3942,6 @@
   "/gc.ca/pm/:language?": [
     "elibroftw"
   ],
-  "/gdmuseum/exhibition/:type?": [
-    "magazian"
-  ],
-  "/gdmuseum/information": [
-    "magazian"
-  ],
   "/gdsrx/:id?": [],
   "/gdufs/news": [
     "gz4zzxc"
@@ -5929,9 +5926,6 @@
     "Maecenas",
     "nczitzk",
     "dvorak0"
-  ],
-  "/pawchive/:service/:id": [
-    "TonyRL"
   ],
   "/pconline/focus/:category?": [
     "CH563"

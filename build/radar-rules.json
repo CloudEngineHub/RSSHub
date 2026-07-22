@@ -4942,27 +4942,6 @@
       }
     ]
   },
-  "pawchive.st": {
-    "_name": "Pawchive",
-    ".": [
-      {
-        "title": "Posts",
-        "docs": "https://docs.rsshub.app/routes/anime",
-        "source": [
-          "/"
-        ],
-        "target": "/pawchive/:service/:id"
-      },
-      {
-        "title": "Posts",
-        "docs": "https://docs.rsshub.app/routes/anime",
-        "source": [
-          "/:service/user/:id"
-        ],
-        "target": "/pawchive/:service/:id"
-      }
-    ]
-  },
   "pixabay.com": {
     "_name": "Pixabay",
     ".": [
@@ -5444,7 +5423,7 @@
         "source": [
           "/discussed"
         ],
-        "target": "/daily/discussed/:period?/:innerSharedContent?/:dateSort?"
+        "target": "/daily/discussed/:period?/:dateSort?"
       },
       {
         "title": "Popular",
@@ -5452,7 +5431,7 @@
         "source": [
           "/popular"
         ],
-        "target": "/daily/popular/:innerSharedContent?/:dateSort?"
+        "target": "/daily/popular/:dateSort?"
       },
       {
         "title": "Source Posts",
@@ -5460,7 +5439,7 @@
         "source": [
           "/sources/:sourceId"
         ],
-        "target": "/daily/source/:sourceId/:innerSharedContent?"
+        "target": "/daily/source/:sourceId"
       },
       {
         "title": "Squads",
@@ -5468,7 +5447,7 @@
         "source": [
           "/squads/:squads"
         ],
-        "target": "/daily/squads/:squads/:innerSharedContent?"
+        "target": "/daily/squads/:squads"
       },
       {
         "title": "Most upvoted",
@@ -5476,7 +5455,7 @@
         "source": [
           "/upvoted"
         ],
-        "target": "/daily/upvoted/:period?/:innerSharedContent?/:dateSort?"
+        "target": "/daily/upvoted/:period?/:dateSort?"
       },
       {
         "title": "User Posts",
@@ -5485,7 +5464,7 @@
           "/:userId/posts",
           "/:userId"
         ],
-        "target": "/daily/user/:userId/:innerSharedContent?"
+        "target": "/daily/user/:userId"
       }
     ]
   },
@@ -20973,6 +20952,27 @@
       }
     ]
   },
+  "gdmuseum.org.cn": {
+    "_name": "Guangdong Museum",
+    "www": [
+      {
+        "title": "Current Exhibitions",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/col9/list"
+        ],
+        "target": "/gdmuseum/exhibition"
+      },
+      {
+        "title": "Information",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/cn/col51/list"
+        ],
+        "target": "/gdmuseum/information"
+      }
+    ]
+  },
   "gdufs.edu.cn": {
     "_name": "广东外语外贸大学",
     "www": [
@@ -21846,6 +21846,42 @@
           "/"
         ],
         "target": "/guanhai/"
+      }
+    ]
+  },
+  "gxmzu.edu.cn": {
+    "_name": "广西民族大学",
+    "ai": [
+      {
+        "title": "人工智能学院通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/index/tzgg.htm",
+          "/"
+        ],
+        "target": "/gxmzu/aitzgg"
+      }
+    ],
+    "library": [
+      {
+        "title": "图书馆最新消息",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/news/news_list.jsp",
+          "/"
+        ],
+        "target": "/gxmzu/libzxxx"
+      }
+    ],
+    "yjs": [
+      {
+        "title": "研究生院招生公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/tzgg/zsgg.htm",
+          "/"
+        ],
+        "target": "/gxmzu/yjszsgg"
       }
     ]
   },
@@ -25201,6 +25237,31 @@
           "/news/articleList.html"
         ],
         "target": "/joins/chinese/S1N12"
+      }
+    ]
+  },
+  "jou.edu.cn": {
+    "_name": "江苏海洋大学",
+    "www": [
+      {
+        "title": "官网通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/index/tzgg.htm",
+          "/"
+        ],
+        "target": "/jou/tzgg"
+      }
+    ],
+    "yz": [
+      {
+        "title": "研招网通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/index/zxgg.htm",
+          "/"
+        ],
+        "target": "/jou/yztzgg"
       }
     ]
   },
@@ -30738,6 +30799,31 @@
       }
     ]
   },
+  "njxzc.edu.cn": {
+    "_name": "南京晓庄学院",
+    "www": [
+      {
+        "title": "官网通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/89/list.htm",
+          "/"
+        ],
+        "target": "/njxzc/tzgg"
+      }
+    ],
+    "lib": [
+      {
+        "title": "图书馆通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/pxyhd/list.htm",
+          "/"
+        ],
+        "target": "/njxzc/libtzgg"
+      }
+    ]
+  },
   "nltimes.nl": {
     "_name": "NL Times",
     ".": [
@@ -34232,6 +34318,27 @@
           "/articles.html"
         ],
         "target": "/paulgraham/"
+      }
+    ]
+  },
+  "pawchive.pw": {
+    "_name": "Pawchive",
+    ".": [
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/"
+        ],
+        "target": "/pawchive/:service/:id"
+      },
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/:service/user/:id"
+        ],
+        "target": "/pawchive/:service/:id"
       }
     ]
   },
@@ -41887,7 +41994,7 @@
     "_name": "小宇宙",
     ".": [
       {
-        "title": "Unknown",
+        "title": "发现",
         "docs": "https://docs.rsshub.app/routes/multimedia",
         "source": [
           "/"
@@ -48117,42 +48224,6 @@
       }
     ]
   },
-  "gxmzu.edu.cn": {
-    "_name": "广西民族大学",
-    "library": [
-      {
-        "title": "图书馆最新消息",
-        "docs": "https://docs.rsshub.app/routes/university",
-        "source": [
-          "/news/news_list.jsp",
-          "/"
-        ],
-        "target": "/gxmzu/libzxxx"
-      }
-    ],
-    "ai": [
-      {
-        "title": "人工智能学院通知公告",
-        "docs": "https://docs.rsshub.app/routes/university",
-        "source": [
-          "/index/tzgg.htm",
-          "/"
-        ],
-        "target": "/gxmzu/aitzgg"
-      }
-    ],
-    "yjs": [
-      {
-        "title": "研究生院招生公告",
-        "docs": "https://docs.rsshub.app/routes/university",
-        "source": [
-          "/tzgg/zsgg.htm",
-          "/"
-        ],
-        "target": "/gxmzu/yjszsgg"
-      }
-    ]
-  },
   "hdu.edu.cn": {
     "_name": "杭州电子科技大学",
     "computer": [
@@ -48601,31 +48672,6 @@
           "/"
         ],
         "target": "/joshwcomeau/popular"
-      }
-    ]
-  },
-  "jou.edu.cn": {
-    "_name": "江苏海洋大学",
-    "www": [
-      {
-        "title": "官网通知公告",
-        "docs": "https://docs.rsshub.app/routes/university",
-        "source": [
-          "/index/tzgg.htm",
-          "/"
-        ],
-        "target": "/jou/tzgg"
-      }
-    ],
-    "yz": [
-      {
-        "title": "研招网通知公告",
-        "docs": "https://docs.rsshub.app/routes/university",
-        "source": [
-          "/index/zxgg.htm",
-          "/"
-        ],
-        "target": "/jou/yztzgg"
       }
     ]
   },
@@ -49117,31 +49163,6 @@
           "/"
         ],
         "target": "/njucm/grabszs"
-      }
-    ]
-  },
-  "njxzc.edu.cn": {
-    "_name": "南京晓庄学院",
-    "lib": [
-      {
-        "title": "图书馆通知公告",
-        "docs": "https://docs.rsshub.app/routes/university",
-        "source": [
-          "/pxyhd/list.htm",
-          "/"
-        ],
-        "target": "/njxzc/libtzgg"
-      }
-    ],
-    "www": [
-      {
-        "title": "官网通知公告",
-        "docs": "https://docs.rsshub.app/routes/university",
-        "source": [
-          "/89/list.htm",
-          "/"
-        ],
-        "target": "/njxzc/tzgg"
       }
     ]
   },

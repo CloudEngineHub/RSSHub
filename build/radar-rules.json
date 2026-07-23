@@ -38,6 +38,56 @@
         "target": "/163/ds/:id"
       }
     ],
+    "music": [
+      {
+        "title": "电台节目",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/djradio"
+        ],
+        "target": "/163/music/djradio/:id"
+      },
+      {
+        "title": "用户动态",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/user/event"
+        ],
+        "target": "/163/music/user/events/:id"
+      },
+      {
+        "title": "用户歌单",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/user/home"
+        ],
+        "target": "/163/music/user/playlist/:id"
+      },
+      {
+        "title": "歌手歌曲",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/artist"
+        ],
+        "target": "/163/music/artist/songs/:id"
+      },
+      {
+        "title": "歌手专辑",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/artist/album"
+        ],
+        "target": "/163/music/artist/:id"
+      },
+      {
+        "title": "歌单歌曲",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/playlist"
+        ],
+        "target": "/163/music/playlist/:id"
+      }
+    ],
     "3g": [
       {
         "title": "栏目",
@@ -4942,27 +4992,6 @@
       }
     ]
   },
-  "pawchive.st": {
-    "_name": "Pawchive",
-    ".": [
-      {
-        "title": "Posts",
-        "docs": "https://docs.rsshub.app/routes/anime",
-        "source": [
-          "/"
-        ],
-        "target": "/pawchive/:service/:id"
-      },
-      {
-        "title": "Posts",
-        "docs": "https://docs.rsshub.app/routes/anime",
-        "source": [
-          "/:service/user/:id"
-        ],
-        "target": "/pawchive/:service/:id"
-      }
-    ]
-  },
   "pixabay.com": {
     "_name": "Pixabay",
     ".": [
@@ -5444,7 +5473,7 @@
         "source": [
           "/discussed"
         ],
-        "target": "/daily/discussed/:period?/:innerSharedContent?/:dateSort?"
+        "target": "/daily/discussed/:period?/:dateSort?"
       },
       {
         "title": "Popular",
@@ -5452,7 +5481,7 @@
         "source": [
           "/popular"
         ],
-        "target": "/daily/popular/:innerSharedContent?/:dateSort?"
+        "target": "/daily/popular/:dateSort?"
       },
       {
         "title": "Source Posts",
@@ -5460,7 +5489,7 @@
         "source": [
           "/sources/:sourceId"
         ],
-        "target": "/daily/source/:sourceId/:innerSharedContent?"
+        "target": "/daily/source/:sourceId"
       },
       {
         "title": "Squads",
@@ -5468,7 +5497,7 @@
         "source": [
           "/squads/:squads"
         ],
-        "target": "/daily/squads/:squads/:innerSharedContent?"
+        "target": "/daily/squads/:squads"
       },
       {
         "title": "Most upvoted",
@@ -5476,7 +5505,7 @@
         "source": [
           "/upvoted"
         ],
-        "target": "/daily/upvoted/:period?/:innerSharedContent?/:dateSort?"
+        "target": "/daily/upvoted/:period?/:dateSort?"
       },
       {
         "title": "User Posts",
@@ -5485,7 +5514,7 @@
           "/:userId/posts",
           "/:userId"
         ],
-        "target": "/daily/user/:userId/:innerSharedContent?"
+        "target": "/daily/user/:userId"
       }
     ]
   },
@@ -8258,6 +8287,19 @@
           "/news"
         ],
         "target": "/3dmgame/news/:category?"
+      }
+    ]
+  },
+  "3gmuseum.cn": {
+    "_name": "Chongqing China Three Gorges Museum",
+    "www": [
+      {
+        "title": "Temporary Exhibition",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/web/column/col5009287.html"
+        ],
+        "target": "/3gmuseum/tempexhibition"
       }
     ]
   },
@@ -20970,6 +21012,27 @@
           "/:language/nouvelles"
         ],
         "target": "/gc.ca/pm/:language"
+      }
+    ]
+  },
+  "gdmuseum.org.cn": {
+    "_name": "Guangdong Museum",
+    "www": [
+      {
+        "title": "Current Exhibitions",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/col9/list"
+        ],
+        "target": "/gdmuseum/exhibition"
+      },
+      {
+        "title": "Information",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/cn/col51/list"
+        ],
+        "target": "/gdmuseum/information"
       }
     ]
   },
@@ -34321,6 +34384,27 @@
       }
     ]
   },
+  "pawchive.pw": {
+    "_name": "Pawchive",
+    ".": [
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/"
+        ],
+        "target": "/pawchive/:service/:id"
+      },
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/:service/user/:id"
+        ],
+        "target": "/pawchive/:service/:id"
+      }
+    ]
+  },
   "pconline.com.cn": {
     "_name": "太平洋科技",
     ".": [
@@ -40250,6 +40334,27 @@
       }
     ]
   },
+  "tjbwg.cn": {
+    "_name": "Tianjin Museum",
+    "www": [
+      {
+        "title": "Temporary Exhibition",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/cn/ExhibitionList.aspx"
+        ],
+        "target": "/tjbwg/exhibition"
+      },
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/cn/NewsList.aspx"
+        ],
+        "target": "/tjbwg/news"
+      }
+    ]
+  },
   "tokeninsight.com": {
     "_name": "TokenInsight",
     ".": [
@@ -41973,7 +42078,7 @@
     "_name": "小宇宙",
     ".": [
       {
-        "title": "Unknown",
+        "title": "发现",
         "docs": "https://docs.rsshub.app/routes/multimedia",
         "source": [
           "/"

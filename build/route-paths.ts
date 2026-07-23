@@ -55,7 +55,6 @@ export type RoutePath =
   | `/36kr/hot-list/:category?`
   | `/3dmgame/games/:name/:type?`
   | `/3dmgame/news/:category?`
-  | `/3gmuseum/tempexhibition`
   | `/3kns/:filters?/:order?`
   | `/423down/:category{.+}?`
   | `/4chan/:board/catalog/:routeParams?`
@@ -2855,8 +2854,6 @@ export type RoutePath =
   | `/tingshuitz/yangjiang`
   | `/tingtingfm/program/:programId`
   | `/tisi/latest`
-  | `/tjbwg/exhibition`
-  | `/tjbwg/news`
   | `/tju/cic/:type?`
   | `/tju/news/:type?`
   | `/tju/oaa/:type?`
@@ -3291,7 +3288,6 @@ export type RoutePath =
   | `/zju/cst/custom/:id`
   | `/zju/grs/:type`
   | `/zju/list/:type`
-  | `/zju/math/:type`
   | `/zju/physics/:type`
   | `/zju/sis/:type`
   | `/zjut/cs/:type`

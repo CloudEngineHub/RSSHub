@@ -2810,9 +2810,6 @@
   "/chinaratings/CreditResearch/:category{.+}?": [
     "nczitzk"
   ],
-  "/chinasilkmuseum/zz": [
-    "magazian"
-  ],
   "/chinathinktanks/:id": [
     "Aeliu"
   ],

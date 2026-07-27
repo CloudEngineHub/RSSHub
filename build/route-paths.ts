@@ -548,6 +548,7 @@ export type RoutePath =
   | `/chinanews/`
   | `/chinania/:category{.+}?`
   | `/chinaratings/CreditResearch/:category{.+}?`
+  | `/chinasilkmuseum/zz`
   | `/chinathinktanks/:id`
   | `/chinatimes/:category?`
   | `/chinaventure/news/:id?`
@@ -1036,6 +1037,8 @@ export type RoutePath =
   | `/forklog/news`
   | `/fortnite/news/:options?`
   | `/fortunechina/:category?`
+  | `/forwardfuture/daily`
+  | `/forwardfuture/originals`
   | `/fosshub/:id`
   | `/free/`
   | `/freebuf/articles/:type`

@@ -163,6 +163,12 @@
     "DIYgod",
     "DFobain"
   ],
+  "/forwardfuture/daily": [
+    "ovo-Tim"
+  ],
+  "/forwardfuture/originals": [
+    "ovo-Tim"
+  ],
   "/freebuf/articles/:type": [
     "trganda"
   ],
@@ -2809,6 +2815,9 @@
   ],
   "/chinaratings/CreditResearch/:category{.+}?": [
     "nczitzk"
+  ],
+  "/chinasilkmuseum/zz": [
+    "magazian"
   ],
   "/chinathinktanks/:id": [
     "Aeliu"

@@ -594,6 +594,29 @@
       }
     ]
   },
+  "forwardfuture.com": {
+    "_name": "Forward Future",
+    ".": [
+      {
+        "title": "Daily Newsletter",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/newsletter/daily",
+          "/"
+        ],
+        "target": "/forwardfuture/daily"
+      },
+      {
+        "title": "Originals",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/originals",
+          "/"
+        ],
+        "target": "/forwardfuture/originals"
+      }
+    ]
+  },
   "freebuf.com": {
     "_name": "FreeBuf",
     ".": [
@@ -838,6 +861,20 @@
           "/article-list/1"
         ],
         "target": "/ifun(_,url)=>{const urlObj=new URL(url);const name=urlObj.searchParams.get(\"tagName\");return`/ifun/n/tag/${name}`}"
+      }
+    ]
+  },
+  "immich.app": {
+    "_name": "Immich",
+    ".": [
+      {
+        "title": "Cursed Knowledge",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/cursed-knowledge",
+          "/"
+        ],
+        "target": "/immich/cursed-knowledge"
       }
     ]
   },
@@ -2595,27 +2632,6 @@
           "/"
         ],
         "target": "/bse/:category?/:keyword?"
-      }
-    ]
-  },
-  "byteclicks.com": {
-    "_name": "字节点击",
-    ".": [
-      {
-        "title": "Unknown",
-        "docs": "https://docs.rsshub.app/routes/new-media",
-        "source": [
-          "/"
-        ],
-        "target": "/byteclicks/"
-      },
-      {
-        "title": "标签",
-        "docs": "https://docs.rsshub.app/routes/new-media",
-        "source": [
-          "/tag/:tag"
-        ],
-        "target": "/byteclicks/tag/:tag"
       }
     ]
   },
@@ -11162,7 +11178,7 @@
         "title": "最新动态",
         "docs": "https://docs.rsshub.app/routes/other",
         "source": [
-          "/zh-CN/news/list"
+          "/zh-CN/about/news"
         ],
         "target": "/alwayscontrol/news"
       }
@@ -13734,6 +13750,27 @@
           "/:type_id/list.htm"
         ],
         "target": "/byau/news/:type_id"
+      }
+    ]
+  },
+  "byteclicks.com": {
+    "_name": "字节点击",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/"
+        ],
+        "target": "/byteclicks/"
+      },
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/tag/:tag"
+        ],
+        "target": "/byteclicks/tag/:tag"
       }
     ]
   },
@@ -17106,17 +17143,16 @@
       }
     ]
   },
-  "cognition.ai": {
+  "cognition.com": {
     "_name": "cognition",
     ".": [
       {
         "title": "Blog",
         "docs": "https://docs.rsshub.app/routes/programming",
         "source": [
-          "/blog/1",
-          "/blog/:category/1"
+          "/blog"
         ],
-        "target": "/cognition/blog/:category?"
+        "target": "/cognition/blog"
       }
     ]
   },
@@ -19453,7 +19489,7 @@
       }
     ]
   },
-  "dykszx.com": {
+  "dykszx.cn": {
     "_name": "德阳人事考试网",
     "www": [
       {
@@ -19662,7 +19698,7 @@
         "target": "/ecnu/bksy"
       }
     ],
-    "cee": [
+    "ieeic": [
       {
         "title": "通信与电子工程学院通知公告",
         "docs": "https://docs.rsshub.app/routes/university",
@@ -22375,7 +22411,7 @@
   },
   "hitwh.edu.cn": {
     "_name": "哈尔滨工业大学（威海）",
-    ".": [
+    "today": [
       {
         "title": "今日工大 - 通知公告",
         "docs": "https://docs.rsshub.app/routes/university",
@@ -24329,20 +24365,6 @@
       }
     ]
   },
-  "immich.app": {
-    "_name": "Immich",
-    ".": [
-      {
-        "title": "Cursed Knowledge",
-        "docs": "https://docs.rsshub.app/routes/blog",
-        "source": [
-          "/cursed-knowledge",
-          "/"
-        ],
-        "target": "/immich/cursed-knowledge"
-      }
-    ]
-  },
   "imop.com": {
     "_name": "imop",
     "t": [
@@ -25522,11 +25544,17 @@
         "title": "News",
         "docs": "https://docs.rsshub.app/routes/traditional-media",
         "source": [
-          "/:lang",
-          "/:lang/category/articles/q/1ee9bdb7186944f765208f34ecfb5407.kcmsf",
-          "/:lang/category/articles.kcmsf"
+          "/:lang"
         ],
         "target": "/kcna/:lang"
+      },
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:lang/article/list/:category"
+        ],
+        "target": "/kcna/:lang/:category"
       }
     ]
   },
@@ -26181,49 +26209,41 @@
         "title": "宏观经济",
         "docs": "https://docs.rsshub.app/routes/finance",
         "source": [
-          "/research.html?type=1"
+          "/research.html?type=92"
         ],
-        "target": "/lhratings/research/1"
+        "target": "/lhratings/research/92"
       },
       {
         "title": "债券市场",
         "docs": "https://docs.rsshub.app/routes/finance",
         "source": [
-          "/research.html?type=2"
+          "/research.html?type=93"
         ],
-        "target": "/lhratings/research/2"
+        "target": "/lhratings/research/93"
       },
       {
         "title": "行业研究",
         "docs": "https://docs.rsshub.app/routes/finance",
         "source": [
-          "/research.html?type=3"
+          "/research.html?type=94"
         ],
-        "target": "/lhratings/research/3"
+        "target": "/lhratings/research/94"
       },
       {
-        "title": "评级理论与方法",
+        "title": "每日资讯",
         "docs": "https://docs.rsshub.app/routes/finance",
         "source": [
-          "/research.html?type=4"
+          "/research.html?type=95"
         ],
-        "target": "/lhratings/research/4"
+        "target": "/lhratings/research/95"
       },
       {
-        "title": "国际债券市场与评级",
+        "title": "其他",
         "docs": "https://docs.rsshub.app/routes/finance",
         "source": [
-          "/research.html?type=5"
+          "/research.html?type=96"
         ],
-        "target": "/lhratings/research/5"
-      },
-      {
-        "title": "评级表现",
-        "docs": "https://docs.rsshub.app/routes/finance",
-        "source": [
-          "/research.html?type=6"
-        ],
-        "target": "/lhratings/research/6"
+        "target": "/lhratings/research/96"
       }
     ]
   },
@@ -29599,11 +29619,11 @@
       }
     ]
   },
-  "my-formosa.com": {
+  "my-formosa.com.tw": {
     "_name": "美麗島電子報",
-    ".": [
+    "m": [
       {
-        "title": "首页",
+        "title": "首頁",
         "docs": "https://docs.rsshub.app/routes/new-media",
         "source": [
           "/"
@@ -30800,7 +30820,7 @@
     "_name": "南京工程学院",
     "www": [
       {
-        "title": "南京工程学院通知公告",
+        "title": "通知公告",
         "docs": "https://docs.rsshub.app/routes/university",
         "source": [
           "/"
@@ -34553,7 +34573,7 @@
         "title": "Blog",
         "docs": "https://docs.rsshub.app/routes/blog",
         "source": [
-          "/hub"
+          "/hub/blog"
         ],
         "target": "/perplexity/blog"
       },
@@ -41243,7 +41263,7 @@
         "title": "Press releases",
         "docs": "https://docs.rsshub.app/routes/government",
         "source": [
-          "/de/presse-und-service/pressemitteilungen/"
+          "/presse-und-service/pressemitteilungen/"
         ],
         "target": "/verfghbw/press"
       }

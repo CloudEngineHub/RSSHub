@@ -864,20 +864,6 @@
       }
     ]
   },
-  "immich.app": {
-    "_name": "Immich",
-    ".": [
-      {
-        "title": "Cursed Knowledge",
-        "docs": "https://docs.rsshub.app/routes/blog",
-        "source": [
-          "/cursed-knowledge",
-          "/"
-        ],
-        "target": "/immich/cursed-knowledge"
-      }
-    ]
-  },
   "isct.ac.jp": {
     "_name": "Institute of Science Tokyo",
     "www": [
@@ -2632,6 +2618,27 @@
           "/"
         ],
         "target": "/bse/:category?/:keyword?"
+      }
+    ]
+  },
+  "byteclicks.com": {
+    "_name": "字节点击",
+    ".": [
+      {
+        "title": "Unknown",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/"
+        ],
+        "target": "/byteclicks/"
+      },
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/tag/:tag"
+        ],
+        "target": "/byteclicks/tag/:tag"
       }
     ]
   },
@@ -11178,7 +11185,7 @@
         "title": "最新动态",
         "docs": "https://docs.rsshub.app/routes/other",
         "source": [
-          "/zh-CN/about/news"
+          "/zh-CN/news/list"
         ],
         "target": "/alwayscontrol/news"
       }
@@ -13750,27 +13757,6 @@
           "/:type_id/list.htm"
         ],
         "target": "/byau/news/:type_id"
-      }
-    ]
-  },
-  "byteclicks.com": {
-    "_name": "字节点击",
-    ".": [
-      {
-        "title": "首页",
-        "docs": "https://docs.rsshub.app/routes/new-media",
-        "source": [
-          "/"
-        ],
-        "target": "/byteclicks/"
-      },
-      {
-        "title": "标签",
-        "docs": "https://docs.rsshub.app/routes/new-media",
-        "source": [
-          "/tag/:tag"
-        ],
-        "target": "/byteclicks/tag/:tag"
       }
     ]
   },
@@ -17143,16 +17129,17 @@
       }
     ]
   },
-  "cognition.com": {
+  "cognition.ai": {
     "_name": "cognition",
     ".": [
       {
         "title": "Blog",
         "docs": "https://docs.rsshub.app/routes/programming",
         "source": [
-          "/blog"
+          "/blog/1",
+          "/blog/:category/1"
         ],
-        "target": "/cognition/blog"
+        "target": "/cognition/blog/:category?"
       }
     ]
   },
@@ -19489,7 +19476,7 @@
       }
     ]
   },
-  "dykszx.cn": {
+  "dykszx.com": {
     "_name": "德阳人事考试网",
     "www": [
       {
@@ -19698,7 +19685,7 @@
         "target": "/ecnu/bksy"
       }
     ],
-    "ieeic": [
+    "cee": [
       {
         "title": "通信与电子工程学院通知公告",
         "docs": "https://docs.rsshub.app/routes/university",
@@ -22411,7 +22398,7 @@
   },
   "hitwh.edu.cn": {
     "_name": "哈尔滨工业大学（威海）",
-    "today": [
+    ".": [
       {
         "title": "今日工大 - 通知公告",
         "docs": "https://docs.rsshub.app/routes/university",
@@ -24365,6 +24352,20 @@
       }
     ]
   },
+  "immich.app": {
+    "_name": "Immich",
+    ".": [
+      {
+        "title": "Cursed Knowledge",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/cursed-knowledge",
+          "/"
+        ],
+        "target": "/immich/cursed-knowledge"
+      }
+    ]
+  },
   "imop.com": {
     "_name": "imop",
     "t": [
@@ -25544,17 +25545,11 @@
         "title": "News",
         "docs": "https://docs.rsshub.app/routes/traditional-media",
         "source": [
-          "/:lang"
+          "/:lang",
+          "/:lang/category/articles/q/1ee9bdb7186944f765208f34ecfb5407.kcmsf",
+          "/:lang/category/articles.kcmsf"
         ],
         "target": "/kcna/:lang"
-      },
-      {
-        "title": "News",
-        "docs": "https://docs.rsshub.app/routes/traditional-media",
-        "source": [
-          "/:lang/article/list/:category"
-        ],
-        "target": "/kcna/:lang/:category"
       }
     ]
   },
@@ -29619,11 +29614,11 @@
       }
     ]
   },
-  "my-formosa.com.tw": {
+  "my-formosa.com": {
     "_name": "美麗島電子報",
-    "m": [
+    ".": [
       {
-        "title": "首頁",
+        "title": "首页",
         "docs": "https://docs.rsshub.app/routes/new-media",
         "source": [
           "/"
@@ -30820,7 +30815,7 @@
     "_name": "南京工程学院",
     "www": [
       {
-        "title": "通知公告",
+        "title": "南京工程学院通知公告",
         "docs": "https://docs.rsshub.app/routes/university",
         "source": [
           "/"
@@ -34573,7 +34568,7 @@
         "title": "Blog",
         "docs": "https://docs.rsshub.app/routes/blog",
         "source": [
-          "/hub/blog"
+          "/hub"
         ],
         "target": "/perplexity/blog"
       },
@@ -41263,7 +41258,7 @@
         "title": "Press releases",
         "docs": "https://docs.rsshub.app/routes/government",
         "source": [
-          "/presse-und-service/pressemitteilungen/"
+          "/de/presse-und-service/pressemitteilungen/"
         ],
         "target": "/verfghbw/press"
       }

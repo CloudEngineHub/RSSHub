@@ -251,9 +251,6 @@
   "/ifun/n/tag/:name": [
     "nczitzk"
   ],
-  "/immich/cursed-knowledge": [
-    "TonyRL"
-  ],
   "/isct/news/:lang": [
     "catyyy"
   ],
@@ -487,6 +484,12 @@
   ],
   "/bse/:category?/:keyword?": [
     "nczitzk"
+  ],
+  "/byteclicks/": [
+    "TonyRL"
+  ],
+  "/byteclicks/tag/:tag": [
+    "TonyRL"
   ],
   "/cbnweek/": [
     "nczitzk"
@@ -2580,12 +2583,6 @@
   "/byau/news/:type_id": [
     "ueiu"
   ],
-  "/byteclicks/": [
-    "TonyRL"
-  ],
-  "/byteclicks/tag/:tag": [
-    "TonyRL"
-  ],
   "/bytes/": [
     "meixger"
   ],
@@ -3009,7 +3006,7 @@
     "Fatpandac"
   ],
   "/codeforces/recent-actions/:minrating?": [],
-  "/cognition/blog": [
+  "/cognition/blog/:category?": [
     "Loongphy",
     "ttttmr"
   ],
@@ -4580,6 +4577,9 @@
   "/imiker/ask/jinghua": [
     "nczitzk"
   ],
+  "/immich/cursed-knowledge": [
+    "TonyRL"
+  ],
   "/imop/tianshu": [
     "zhkgo"
   ],
@@ -4602,7 +4602,7 @@
   "/indienova/column/:columnId": [
     "TonyRL"
   ],
-  "/indienova/gamedb/recent/:platform?": [
+  "/indienova/gamedb/recent": [
     "TonyRL"
   ],
   "/indienova/usergames": [
@@ -7505,7 +7505,7 @@
   "/v2ex/xna": [
     "luckyscript"
   ],
-  "/verfghbw/press": [
+  "/verfghbw/press/:keyword?": [
     "quinn-dev"
   ],
   "/vertikal/latest": [
@@ -9296,16 +9296,11 @@
     "xyqfer"
   ],
   "/jandan/": [
-    "lonelykid",
     "nczitzk",
     "bigfei",
     "pseudoyu"
   ],
   "/jandan/:category/:type?": [
-    "kobemtl",
-    "Xuanwo",
-    "xyqfer",
-    "9uanhuo",
     "nczitzk",
     "pseudoyu"
   ],
@@ -9363,24 +9358,24 @@
   "/jewishmuseum/exhibitions": [
     "chazeon"
   ],
+  "/jiemian/account/main/1": [
+    "nczitzk",
+    "pseudoyu"
+  ],
   "/jiemian/lists/:id": [
     "WenhuWee",
     "nczitzk",
     "pseudoyu"
   ],
-  "/jiemian/video/lists/:id": [
+  "/jiemian/special/1192": [
     "nczitzk",
     "pseudoyu"
   ],
-  "/jiemian/pro/lists/:id": [
+  "/jiemian/video/lists/258_1": [
     "nczitzk",
     "pseudoyu"
   ],
-  "/jiemian/account/main/:id": [
-    "nczitzk",
-    "pseudoyu"
-  ],
-  "/jiemian/special/:id": [
+  "/jiemian/pro/lists/12": [
     "nczitzk",
     "pseudoyu"
   ],

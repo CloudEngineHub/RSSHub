@@ -2272,6 +2272,7 @@ export type RoutePath =
   | `/penguin-random-house/the-read-down`
   | `/people/:site?/:category{.+}?`
   | `/people/liuyan/:id/:state?`
+  | `/people/paper/:page?`
   | `/people/xjpjh/:keyword?/:year?`
   | `/peopo/topic/:topicId?`
   | `/perplexity/blog`
@@ -3146,6 +3147,7 @@ export type RoutePath =
   | `/wtu/:type`
   | `/wtu/job/:type`
   | `/wufazhuce/one`
+  | `/wuzhongmuseum/exhibition/:type?`
   | `/wyzxwk/article/:id?`
   | `/wzu/news/:type?`
   | `/x-mol/news/:tag?`

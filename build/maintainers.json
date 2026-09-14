@@ -1107,6 +1107,9 @@
     "wb14123",
     "pseudoyu"
   ],
+  "/lg/tokyo/food-permit/:ward?": [
+    "pseudoyu"
+  ],
   "/lifeweek/channel/:id": [
     "changren-wcr"
   ],
@@ -2380,6 +2383,9 @@
     "nczitzk",
     "pseudoyu"
   ],
+  "/abc-tenpo/property/:pref?": [
+    "pseudoyu"
+  ],
   "/abskoop/nsfw": [
     "zhenhappy"
   ],
@@ -3047,6 +3053,9 @@
   ],
   "/bugzilla/bug/:site/:bugId": [
     "FranklinYu"
+  ],
+  "/bukenavi/object/:region?/:pref?": [
+    "pseudoyu"
   ],
   "/bulianglin/": [
     "cnkmmk"
@@ -5520,8 +5529,14 @@
   "/inoreader/rss/:user/:tag": [
     "IvanWng97"
   ],
+  "/inshokuten/bukken/:area?": [
+    "pseudoyu"
+  ],
   "/instructables/projects/:category?": [
     "wolfg1969"
+  ],
+  "/inuki-ichiba/rent/:pref?": [
+    "pseudoyu"
   ],
   "/investor/:id{.+}?": [
     "nczitzk"
@@ -5559,6 +5574,9 @@
   ],
   "/iracing/news": [
     "canonnizq"
+  ],
+  "/iri-search/estate/:area?": [
+    "pseudoyu"
   ],
   "/itc/collection/:colType": [
     "cnkmmk"
@@ -8006,6 +8024,9 @@
     "hang333",
     "TonyRL"
   ],
+  "/sonomama/property/:pref?": [
+    "pseudoyu"
+  ],
   "/sony/downloads/:productType/:productId": [
     "IvanWng97"
   ],
@@ -8352,6 +8373,12 @@
     "DIYgod",
     "Rongronggg9",
     "synchrone",
+    "pseudoyu"
+  ],
+  "/temposmart/estates/:pref?": [
+    "pseudoyu"
+  ],
+  "/tenant-shop/chintai/:pref?/:type?": [
     "pseudoyu"
   ],
   "/tencent/pvp/newsindex/:type": [

@@ -342,6 +342,9 @@
   "/jl1mall/forum/:type?/:key?": [
     "nczitzk"
   ],
+  "/jma/wxchart/:type?": [
+    "TonyRL"
+  ],
   "/joneslanglasalle/:language?/:category{.+}?": [
     "nczitzk",
     "pseudoyu"
@@ -1219,6 +1222,9 @@
   ],
   "/tkww/:column{.+}?": [
     "quiniapiezoelectricity"
+  ],
+  "/toei/ridership": [
+    "pseudoyu"
   ],
   "/topbook/:id?": [
     "nczitzk"
@@ -5641,6 +5647,9 @@
   "/jbma/report/:filter{.+}?": [
     "nczitzk"
   ],
+  "/jfnet/industry-report": [
+    "pseudoyu"
+  ],
   "/jgsu/jwc": [
     "butten42"
   ],
@@ -5745,6 +5754,9 @@
   ],
   "/jpxgmn/weekly": [
     "Urabartin"
+  ],
+  "/jreast/ridership/:year?": [
+    "pseudoyu"
   ],
   "/jrj/:channelNum": [
     "p3psi-boo"
@@ -5963,6 +5975,9 @@
   ],
   "/letterboxd/:username/watchlist": [
     "johan456789"
+  ],
+  "/lg/tokyo/rail-ridership/:table?": [
+    "pseudoyu"
   ],
   "/lg/osaka/food-permit": [
     "pseudoyu"

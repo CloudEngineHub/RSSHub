@@ -6928,6 +6928,9 @@
   "/oilchem/:type?/:category?/:subCategory?": [
     "nczitzk"
   ],
+  "/okayafrica/music/latest": [
+    "ashi-koki"
+  ],
   "/okx/:section?": [
     "lxl66566"
   ],
@@ -8074,6 +8077,9 @@
   ],
   "/sourceforge/:routeParams?": [
     "JimenezLi"
+  ],
+  "/south-plus/forum/:fid?": [
+    "NicholasYZ"
   ],
   "/spankbang/new_videos": [
     "TonyRL"

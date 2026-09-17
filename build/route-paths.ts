@@ -2537,6 +2537,7 @@ export type RoutePath =
   | `/oevw/:json?`
   | `/ofweek/news`
   | `/oilchem/:type?/:category?/:subCategory?`
+  | `/okayafrica/music/latest`
   | `/okx/:section?`
   | `/olevod/vod/:id`
   | `/olevod/vodlist`
@@ -3088,6 +3089,7 @@ export type RoutePath =
   | `/soundofhope/:channel/:id`
   | `/soundon/p/:id`
   | `/sourceforge/:routeParams?`
+  | `/south-plus/forum/:fid?`
   | `/southcn/nfapp/column/:column?`
   | `/southcn/nfapp/reporter/:reporter`
   | `/soweather/warn`

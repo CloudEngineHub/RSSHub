@@ -52,6 +52,7 @@ export type RoutePath =
   | `/2cycd/:fid/:sort?`
   | `/30secondsofcode/category/:category?/:subCategory?`
   | `/30secondsofcode/latest`
+  | `/35mmc/:category?`
   | `/36kr/:category/:subCategory?/:keyword?`
   | `/36kr/hot-list/:category?`
   | `/3dmgame/games/:name/:type?`
@@ -1142,8 +1143,6 @@ export type RoutePath =
   | `/fda/cdrh/:titleOnly?`
   | `/fediverse/timeline/:account`
   | `/feng/forum/:id/:type?`
-  | `/ff14/ff14_global/:lang/:type?`
-  | `/ff14/ff14_zh/:type?`
   | `/ff14/global/:lang/:type?`
   | `/ff14/zh/:type?`
   | `/fffdm/manhua/:id/:cdn?`
@@ -2236,6 +2235,7 @@ export type RoutePath =
   | `/mihoyo/sr/:location?/:category?`
   | `/mihoyo/ys/:location?/:category?`
   | `/mihoyo/zzz/:location?/:category?`
+  | `/mikiki/`
   | `/mindmeister/:category?/:language?`
   | `/minecraft/blockedservers`
   | `/minecraft/java-runtime/:arch?/:javaType?`

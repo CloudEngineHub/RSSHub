@@ -1616,6 +1616,9 @@
   "/rockstargames/newswire": [
     "dapexyz"
   ],
+  "/romielf/news/:tagId?": [
+    "TonyRL"
+  ],
   "/sctv/programme/:id?/:limit?/:isFull?": [
     "nczitzk"
   ],
@@ -8009,7 +8012,7 @@
   "/smzdm/baoliao/:uid": [
     "nczitzk"
   ],
-  "/smzdm/haowen/fenlei/:name/:sort?": [
+  "/smzdm/haowen/fenlei/:name": [
     "LogicJake"
   ],
   "/smzdm/haowen/:day?": [

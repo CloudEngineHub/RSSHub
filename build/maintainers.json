@@ -1353,6 +1353,12 @@
     "KTachibanaM",
     "AiraNadih"
   ],
+  "/facebook/group/:id": [
+    "TonyRL"
+  ],
+  "/facebook/page/:id": [
+    "TonyRL"
+  ],
   "/fantia/search/:type?/:caty?/:period?/:order?/:rating?/:keyword?": [
     "nczitzk"
   ],
@@ -1444,6 +1450,11 @@
   ],
   "/iwara/subscriptions": [
     "FeCCC"
+  ],
+  "/ixigua/user/video/:uid/:disableEmbed?": [
+    "FlashWingShadow",
+    "Fatpandac",
+    "pseudoyu"
   ],
   "/javtrailers/casts/:cast": [
     "TonyRL"
@@ -4531,9 +4542,6 @@
   "/f95zone/thread/:thread": [
     "wsmbsbbz"
   ],
-  "/facebook/page/:id": [
-    "TonyRL"
-  ],
   "/famitsu/category/:category?": [
     "TonyRL"
   ],
@@ -5606,11 +5614,6 @@
   ],
   "/itsec/news": [
     "ch3n4y"
-  ],
-  "/ixigua/user/video/:uid/:disableEmbed?": [
-    "FlashWingShadow",
-    "Fatpandac",
-    "pseudoyu"
   ],
   "/j-test/news": [
     "kuhahku"

@@ -16993,6 +16993,85 @@ export default {
     "name": "EVERIA.CLUB",
     "url": "everia.club"
   },
+  "facebook": {
+    "routes": {
+      "/group/:id": {
+        "path": "/group/:id",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/facebook/group/613870175328566",
+        "parameters": {
+          "id": "Group ID or group username"
+        },
+        "features": {
+          "requireConfig": [
+            {
+              "name": "FACEBOOK_COOKIE",
+              "optional": true,
+              "description": "Facebook cookie, only `c_user` and `xs` are required. Set this if you see `Rate limit exceeded`."
+            }
+          ],
+          "antiCrawler": true
+        },
+        "radar": [
+          {
+            "source": [
+              "www.facebook.com/groups/:id"
+            ]
+          }
+        ],
+        "name": "Group",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "www.facebook.com",
+        "location": "group.ts",
+        "module": () => import('@/routes/facebook/group.ts')
+      },
+      "/page/:id": {
+        "path": "/page/:id",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/facebook/page/NASA",
+        "parameters": {
+          "id": "Page or profile username, or numeric ID"
+        },
+        "features": {
+          "requireConfig": [
+            {
+              "name": "FACEBOOK_COOKIE",
+              "optional": true,
+              "description": "Facebook cookie, only `c_user` and `xs` are required. Set this if you see `Rate limit exceeded`."
+            }
+          ],
+          "antiCrawler": true
+        },
+        "radar": [
+          {
+            "source": [
+              "www.facebook.com/:id",
+              "www.facebook.com/people/:name/:id"
+            ],
+            "target": "/page/:id"
+          }
+        ],
+        "name": "Page / Profile",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "description": "Works for pages and public personal profiles. Posts behind a login wall require `FACEBOOK_COOKIE`.",
+        "url": "www.facebook.com",
+        "location": "page.ts",
+        "module": () => import('@/routes/facebook/page.ts')
+      }
+    },
+    "apiRoutes": {},
+    "name": "Facebook",
+    "url": "www.facebook.com",
+    "lang": "en"
+  },
   "fantia": {
     "routes": {
       "/search/:type?/:caty?/:period?/:order?/:rating?/:keyword?": {
@@ -18668,6 +18747,50 @@ export default {
     "name": "iwara",
     "url": "www.iwara.tv",
     "lang": "en"
+  },
+  "ixigua": {
+    "routes": {
+      "/user/video/:uid/:disableEmbed?": {
+        "path": "/user/video/:uid/:disableEmbed?",
+        "categories": [
+          "multimedia"
+        ],
+        "example": "/ixigua/user/video/4234740937",
+        "parameters": {
+          "uid": "用户 id, 可在用户主页中找到",
+          "disableEmbed": "默认为开启内嵌视频, 任意值为关闭"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "ixigua.com/home/:uid",
+              "m.ixigua.com/user/:uid"
+            ],
+            "target": "/user/video/:uid"
+          }
+        ],
+        "name": "用户视频投稿",
+        "maintainers": [
+          "FlashWingShadow",
+          "Fatpandac",
+          "pseudoyu"
+        ],
+        "location": "user-video.tsx",
+        "module": () => import('@/routes/ixigua/user-video.tsx')
+      }
+    },
+    "apiRoutes": {},
+    "name": "西瓜视频",
+    "url": "ixigua.com",
+    "lang": "zh-CN"
   },
   "javtrailers": {
     "routes": {
@@ -61914,48 +62037,6 @@ export default {
     "url": "f95zone.to",
     "description": "F95zone is a community for adult games and animations."
   },
-  "facebook": {
-    "routes": {
-      "/page/:id": {
-        "path": "/page/:id",
-        "categories": [
-          "social-media"
-        ],
-        "example": "/facebook/page/NASA",
-        "parameters": {
-          "id": "Page ID"
-        },
-        "features": {
-          "requireConfig": [
-            {
-              "name": "FACEBOOK_COOKIE",
-              "optional": true,
-              "description": "Facebook cookie, only `c_user` and `xs` are required."
-            }
-          ],
-          "antiCrawler": true
-        },
-        "radar": [
-          {
-            "source": [
-              "www.facebook.com/:id"
-            ]
-          }
-        ],
-        "name": "Page",
-        "maintainers": [
-          "TonyRL"
-        ],
-        "url": "www.facebook.com",
-        "location": "page.ts",
-        "module": () => import('@/routes/facebook/page.ts')
-      }
-    },
-    "apiRoutes": {},
-    "name": "Facebook",
-    "url": "www.facebook.com",
-    "lang": "en"
-  },
   "famitsu": {
     "routes": {
       "/category/:category?": {
@@ -75737,49 +75818,6 @@ export default {
     "categories": [
       "government"
     ]
-  },
-  "ixigua": {
-    "routes": {
-      "/user/video/:uid/:disableEmbed?": {
-        "path": "/user/video/:uid/:disableEmbed?",
-        "categories": [
-          "multimedia"
-        ],
-        "example": "/ixigua/user/video/4234740937",
-        "parameters": {
-          "uid": "用户 id, 可在用户主页中找到",
-          "disableEmbed": "默认为开启内嵌视频, 任意值为关闭"
-        },
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
-        "radar": [
-          {
-            "source": [
-              "ixigua.com/home/:uid"
-            ],
-            "target": "/user/video/:uid"
-          }
-        ],
-        "name": "用户视频投稿",
-        "maintainers": [
-          "FlashWingShadow",
-          "Fatpandac",
-          "pseudoyu"
-        ],
-        "location": "user-video.tsx",
-        "module": () => import('@/routes/ixigua/user-video.tsx')
-      }
-    },
-    "apiRoutes": {},
-    "name": "西瓜视频",
-    "url": "ixigua.com",
-    "lang": "zh-CN"
   },
   "j-test": {
     "routes": {
